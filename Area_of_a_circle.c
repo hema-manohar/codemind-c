@@ -1,9 +1,9 @@
-# include<stdio.h>
+#include<stdio.h>
 int main()
 {
-    int m;
-    scanf("%d",&m);
-    float r;
-    r=3.14*m*m;
-    printf("%.2f",r);
+    int a;
+    scanf("%d", &a);
+    float c = 3.14 * a * a;
+    printf("%.2f", c);
+    return 0;
 }
